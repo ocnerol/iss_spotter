@@ -31,7 +31,7 @@ const nextISSTimesForMyLocation = function(callback) {
         }
 
         // no error, we have flyover times data!
-        callback(null, flytimes);
+        return callback(null, flytimes);
       });
     });
   });
